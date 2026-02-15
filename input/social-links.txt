@@ -1,0 +1,66 @@
+# Aleto Auto Skla Servis - Social Media & Contact Links
+
+## Social Media Profiles
+
+### Facebook
+https://www.facebook.com/share/1FDXn4LaW8/
+
+### Instagram
+https://www.instagram.com/aletoservis?igsh=MWl1ZDRlcTZxbjBleg==
+
+### TikTok
+@Aleto.servis
+https://www.tiktok.com/@aleto.servis
+
+## Contact Information
+
+### Primary Phone Numbers
+- **Mobile 1:** 731 409 899
+  - Format for click-to-call: tel:+420731409899
+  
+- **Mobile 2:** 608 102 471
+  - Format for click-to-call: tel:+420608102471
+
+### Email
+aletosutosklo@seznam.cz
+
+### Location
+Ochoz u Konice, Czech Republic
+- **GPS Coordinates:** 49.5981017N, 16.9170522E
+- **Google Maps Link:** https://maps.google.com/?q=49.5981017,16.9170522
+
+## QR Code
+- Business card includes QR code for easy contact
+- Consider generating new QR code that links to website once live
+
+## Click-to-Call Links (Mobile)
+```html
+<a href="tel:+420731409899">731 409 899</a>
+<a href="tel:+420608102471">608 102 471</a>
+```
+
+## Email Link
+```html
+<a href="mailto:aletosutosklo@seznam.cz">aletosutosklo@seznam.cz</a>
+```
+
+## Map/Directions Link
+```html
+<a href="https://maps.google.com/?q=49.5981017,16.9170522" target="_blank">
+  Najít nás na mapě (Find us on map)
+</a>
+```
+
+## Contact Form Setup
+
+**Send confirmation to:**
+- aletosutosklo@seznam.cz
+
+**Form notifications should include:**
+- Customer name
+- Phone number (most important!)
+- Email
+- Service type requested
+- Urgency level
+- Message
+- Timestamp

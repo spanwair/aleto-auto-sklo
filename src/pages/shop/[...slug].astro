@@ -11,6 +11,9 @@ import ProductVariations from "@components/shop/ProductVariations.astro";
 import ShippingDimensions from "@components/shop/ShippingDimensions.astro";
 import { t } from "@util/translate";
 
+// Force static site generation
+export const prerender = true;
+
 export async function getStaticPaths() {
   const posts = (await getCollection("product")).sort(
     (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),

@@ -11,7 +11,9 @@
   </div>
 </template>
 <script setup>
-import Panzoom from "@panzoom/panzoom";
+import * as PanzoomPkg from "@panzoom/panzoom";
+const Panzoom = PanzoomPkg.default || PanzoomPkg;
+
 import { ref, onMounted } from "vue";
 const zoom = ref(null);
 const container = ref(null);

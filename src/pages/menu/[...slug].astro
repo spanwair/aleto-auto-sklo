@@ -7,6 +7,9 @@ import ItemNav from "@components/navigation/ItemNav.astro";
 import MenuList from "@components/menu/MenuList.astro";
 import { slugify, getArchiveNav } from "@util/helpers";
 
+// Force static site generation
+export const prerender = true;
+
 export async function getStaticPaths() {
   const posts = (await getCollection("menu")).sort(
     (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),

@@ -46,6 +46,7 @@ const stop = watchEffect(() => {
 });
 
 function LoadJS() {
+  if (typeof document === "undefined") return;
   let script = document.createElement("script");
   script.type = "text/javascript";
   script.src = "https://cdn.snipcart.com/themes/v3.7.1/default/snipcart.js";
@@ -55,6 +56,7 @@ function LoadJS() {
 }
 
 function loadCSS() {
+  if (typeof document === "undefined") return;
   if (!scripLoaded.value) {
     styleSrc.value = "/snipcart.css";
   }

@@ -23,11 +23,12 @@ const m2dxOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nebulix.unfolding.io",
+  output: "static", // Ensure static site generation (SSG)
+  site: "https://aleto-autoskla.cz", // Update with actual domain when available
   integrations: [
     icon(),
     mdx({}),
-    sitemap(),
+    // sitemap(),
     tailwind(),
     vue({
       appEntrypoint: "/src/pages/_app",

@@ -10,6 +10,9 @@ import { Picture } from "astro-imagetools/components";
 import SnipCart from "@components/shop/SnipCartInit.vue";
 import CartButton from "@components/shop/CartButton.vue";
 
+// Force static site generation
+export const prerender = true;
+
 const snipcartKey = import.meta.env.SNIPCART_KEY;
 
 export async function getStaticPaths() {

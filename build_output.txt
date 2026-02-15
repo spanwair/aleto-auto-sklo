@@ -1,0 +1,557 @@
+
+> nebulix@0.1.9 build
+> astro build
+
+19:01:35 [WARN] Unsupported file type /home/jan/PROJECTS/astro/aleto-auto-skla/src/pages/images/[slug].astro.bak found. Prefix filename with an underscore (`_`) to ignore.
+19:01:36 [types] Generated 517ms
+19:01:36 [build] output: "static"
+19:01:36 [build] directory: /home/jan/PROJECTS/astro/aleto-auto-skla/dist/
+19:01:36 [build] Collecting build info...
+19:01:36 [build] ✓ Completed in 616ms.
+19:01:36 [build] Building static entrypoints...
+[Shiki] The language ".env" doesn't exist, falling back to "plaintext".
+[Shiki] The language "ENV" doesn't exist, falling back to "plaintext".
+19:01:41 [astro-icon] Loaded icons from src/icons
+19:01:42 [vite] ✓ built in 6.05s
+19:01:42 [build] ✓ Completed in 6.09s.
+
+ building client (vite) 
+19:01:42 [vite] transforming...
+19:01:43 [vite] ✓ 85 modules transformed.
+19:01:44 [vite] rendering chunks...
+19:01:44 [vite] computing gzip size...
+19:01:44 [vite] dist/_astro/_page_.a66UqXSU.css                                               19.51 kB │ gzip:  3.71 kB
+19:01:44 [vite] dist/_astro/page.sN3tJsal.js                                                   0.04 kB │ gzip:  0.06 kB
+19:01:44 [vite] dist/_astro/_plugin-vue_export-helper.DlAUqK2U.js                              0.09 kB │ gzip:  0.10 kB
+19:01:44 [vite] dist/_astro/index.CarJdnd4.js                                                  0.16 kB │ gzip:  0.16 kB
+19:01:44 [vite] dist/_astro/store.rZCyWBrb.js                                                  0.63 kB │ gzip:  0.36 kB
+19:01:44 [vite] dist/_astro/BackgroundImage.astro_astro_type_script_index_0_lang.CWa2MAiD.js   0.66 kB │ gzip:  0.46 kB
+19:01:44 [vite] dist/_astro/VariationInput.1_HVkiOG.js                                         0.80 kB │ gzip:  0.53 kB
+19:01:44 [vite] dist/_astro/ProductVariationImageWrap.B_1hDlqM.js                              0.94 kB │ gzip:  0.60 kB
+19:01:44 [vite] dist/_astro/client.Ct25xfTI.js                                                 1.17 kB │ gzip:  0.72 kB
+19:01:44 [vite] dist/_astro/ProductPrice.DAUevaeG.js                                           1.45 kB │ gzip:  0.84 kB
+19:01:44 [vite] dist/_astro/SnipCartInit.DvLV_LMR.js                                           1.58 kB │ gzip:  0.91 kB
+19:01:44 [vite] dist/_astro/VariationButton.BslCCCmg.js                                        1.61 kB │ gzip:  0.90 kB
+19:01:44 [vite] dist/_astro/Intersecting.B0EraIZM.js                                           1.96 kB │ gzip:  1.07 kB
+19:01:44 [vite] dist/_astro/index.Dr4bzSqP.js                                                  2.22 kB │ gzip:  1.00 kB
+19:01:44 [vite] dist/_astro/Init.vwHeQ1Is.js                                                   2.53 kB │ gzip:  1.36 kB
+19:01:44 [vite] dist/_astro/index.C_YeDVWq.js                                                  3.03 kB │ gzip:  1.41 kB
+19:01:44 [vite] dist/_astro/index.UJPiND4x.js                                                  3.07 kB │ gzip:  1.49 kB
+19:01:44 [vite] dist/_astro/hoisted.DtSop7op.js                                               12.47 kB │ gzip:  4.30 kB
+19:01:44 [vite] dist/_astro/index.BWmgiP3N.js                                                 20.72 kB │ gzip:  7.28 kB
+19:01:44 [vite] dist/_astro/_astro-entry_vue3-popper.Cj-kAwFA.js                              26.54 kB │ gzip:  9.65 kB
+19:01:44 [vite] dist/_astro/ContactDialog.q5SjQuWC.js                                         57.75 kB │ gzip: 21.67 kB
+19:01:44 [vite] dist/_astro/runtime-dom.esm-bundler.Bh3NKQOS.js                               82.59 kB │ gzip: 32.60 kB
+19:01:44 [vite] ✓ built in 1.59s
+
+ generating static routes 
+19:01:44 ▶ src/pages/admin.astro
+19:01:44   └─ /admin/index.html (+12ms)
+19:01:44 ▶ src/pages/blog/tag/[...slug].astro
+19:01:44   ├─ /blog/tag/features/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_contact_settings.jpeg in 132.3651000000009ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_page_builder.jpeg in 139.21500699999888ms
+Responsive Image sets generated for Picture at /src/assets/nebulixshop.jpeg in 142.3762170000009ms
+Responsive Image sets generated for Picture at /src/assets/roadmap.jpeg in 142.3977160000013ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_contact_settings.jpeg in 144.39960200000132ms
+Responsive Image sets generated for Picture at src/assets/cosmic_contact.jpg in 132.84936299999936ms
+Responsive Image sets generated for Picture at /src/assets/cosmic-aperol-spritz.jpeg in 97.18492999999944ms
+ (+178ms)
+19:01:44   └─ /blog/tag/docs/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulala_rocket.jpeg in 67.42542200000025ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-template.jpeg in 68.51846999999907ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-style.jpeg in 70.5790049999996ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_5.jpeg in 38.36413800000082ms
+ (+79ms)
+19:01:44 ▶ src/pages/blog/[...page].astro
+19:01:44   └─ /blog/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_news.jpeg in 46.71758500000033ms
+ (+79ms)
+19:01:44 ▶ src/pages/blog/[...slug].astro
+19:01:44   ├─ /blog/contact-form/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_contact_settings.jpeg in 38.18010200000026ms
+ (+65ms)
+19:01:44   ├─ /blog/astro-3-snipcart-starter-template-nebulix-start-your-online-store-in-minutes/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulixshop.jpeg in 68.48668299999918ms
+ (+98ms)
+19:01:44   ├─ /blog/readme/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulala_rocket.jpeg in 41.0200449999993ms
+ (+69ms)
+19:01:44   ├─ /blog/how-to-customize-the-theme/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-style.jpeg in 26.46171200000026ms
+ (+69ms)
+19:01:44   ├─ /blog/templates-and-page-styles/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-template.jpeg in 25.89084399999956ms
+ (+48ms)
+19:01:44   ├─ /blog/page-builder-blocks/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulala_rocket.jpeg in 371.46590899999865ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-style.jpeg in 366.21945700000106ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_contact_settings.jpeg in 365.1767680000012ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-template.jpeg in 414.0656339999987ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_page_builder.jpeg in 414.3306529999991ms
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-nebulix.png in 687.2918740000005ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago.png in 688.7666090000002ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_2.jpeg in 688.3278520000003ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_3.jpeg in 688.2602399999996ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 687.2964220000013ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee.jpeg in 688.2751850000004ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_moscow_mule.jpeg in 688.0993389999985ms
+Responsive Image sets generated for Picture at /src/assets/long-island-iced-tea.jpeg in 687.9792249999991ms
+Responsive Image sets generated for Picture at /src/assets/embeds.png in 673.6260979999988ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-ben-bag.png in 666.3519529999994ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-nebulix.png in 666.0857120000001ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-bucket.png in 665.8909459999995ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-nebulix.png in 664.591257ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-ben-bag.png in 665.208192ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-1.png in 665.8016019999995ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-bucket.png in 666.6140059999998ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-1.png in 666.4751939999987ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago.png in 665.8513480000001ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago2.png in 666.4399219999996ms
+Responsive Image sets generated for Picture at /src/assets/license.jpeg in 665.1692719999992ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-1.png in 666.5070809999997ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coctails_3.jpeg in 666.3135890000012ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_merch.jpeg in 666.135902ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-1.png in 665.5448020000003ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_2.jpeg in 666.3000730000003ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_2.jpeg in 667.6847020000005ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_merch.jpeg in 668.360259000001ms
+Responsive Image sets generated for Picture at /src/assets/license.jpeg in 668.1239619999997ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coctails_3.jpeg in 668.9356579999985ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_gin_tonic.jpeg in 710.0183530000013ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_navigation_settings.jpeg in 711.3402669999996ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_about_us.jpeg in 712.1977189999998ms
+Responsive Image sets generated for Picture at /src/assets/nebulala_3.jpeg in 713.8725649999997ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_page_builder.jpeg in 126.98277299999972ms
+ (+733ms)
+19:01:45   ├─ /blog/activate-newsletter/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+ (+25ms)
+19:01:45   └─ /blog/roadmap/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/roadmap.jpeg in 23.9865060000011ms
+ (+65ms)
+19:01:45 ▶ src/pages/menu/[...slug].astro
+19:01:45   ├─ /menu/coctails/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 149.48887500000092ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_gin_tonic.jpeg in 151.17401400000017ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_moscow_mule.jpeg in 154.02944299999945ms
+Responsive Image sets generated for Picture at /src/assets/cosmic-aperol-spritz.jpeg in 158.8557810000002ms
+Responsive Image sets generated for Picture at /src/assets/long-island-iced-tea.jpeg in 162.82892800000081ms
+Responsive Image sets generated for Picture at /src/assets/cosmic-dark-and-stormy.jpeg in 166.04234700000052ms
+ (+192ms)
+19:01:45   ├─ /menu/drinks/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-vlskakkl [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_coctails_1.jpg in 75.69928400000026ms
+ (+152ms)
+19:01:46   └─ /menu/virgin-coctails/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-bklzpqhe [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+ (+73ms)
+19:01:46 ▶ src/pages/shop/category/[...slug].astro
+19:01:46   ├─ /shop/category/donations/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_5.jpeg in 17.75995900000089ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 18.60380400000031ms
+Responsive Image sets generated for Picture at /src/assets/lamborghini.jpeg in 22.87837600000057ms
+ (+33ms)
+19:01:46   ├─ /shop/category/licenses/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-vlskakkl [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-00-start.jpg in 41.47726700000021ms
+Responsive Image sets generated for Picture at /src/assets/starfunnel.jpg in 42.307488999998895ms
+Responsive Image sets generated for Picture at /src/assets/license.jpeg in 33.13803200000075ms
+ (+49ms)
+19:01:46   ├─ /shop/category/merch/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_bottle.png in 21.164142999999967ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_hoodie.png in 24.505138999998962ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cat.png in 24.768275000000358ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-tshirt-2.png in 25.323386000000028ms
+ (+37ms)
+19:01:46   ├─ /shop/category/merch/2/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-wizy.png in 19.506851000000097ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cuty.png in 20.255638999999064ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-sneakers.png in 20.86375399999997ms
+Responsive Image sets generated for Picture at /src/assets/t-shitrt-nebulix-3.jpg in 21.621021000000837ms
+ (+28ms)
+19:01:46   ├─ /shop/category/style-2/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago2.png in 19.876287999999477ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago.png in 20.989274999999907ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_hoodie.png in 22.181297999999515ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cat.png in 23.200736999999208ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-tshirt-2.png in 24.451123000000734ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_bottle.png in 31.079867999998896ms
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_coctails_3.jpeg in 12.694767000000866ms
+ (+58ms)
+19:01:46   ├─ /shop/category/style-2/2/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-wizy.png in 37.75852599999962ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cuty.png in 35.80863900000077ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-sneakers.png in 36.830441999998584ms
+Responsive Image sets generated for Picture at /src/assets/t-shitrt-nebulix-3.jpg in 37.882063000000926ms
+ (+48ms)
+19:01:46   ├─ /shop/category/style-3/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-vlskakkl [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix_merch.jpeg in 79.7870299999995ms
+ (+107ms)
+19:01:46   └─ /shop/category/style-3/2/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-pqxpsywa [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-vlskakkl [0m [33mis not a valid Picture Config Option[0m
+ (+37ms)
+19:01:46 ▶ src/pages/shop/[...slug].astro
+19:01:46   ├─ /shop/buy-me-a-coffee/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_5.jpeg in 180.47631300000103ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_5.jpeg in 194.03534500000023ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_5.jpeg in 191.8807399999987ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_3.jpeg in 229.54688499999975ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_3.jpeg in 220.173272ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_3.jpeg in 212.82557400000042ms
+Responsive Image sets generated for Picture at /src/assets/cappuchinno.jpeg in 214.93916799999897ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_4.jpeg in 234.89643200000137ms
+Responsive Image sets generated for Picture at /src/assets/cappuchinno.jpeg in 236.52248700000018ms
+Responsive Image sets generated for Picture at /src/assets/paper_cup.jpeg in 236.25951600000008ms
+Responsive Image sets generated for Picture at /src/assets/steel_mug.jpeg in 236.37058199999956ms
+Responsive Image sets generated for Picture at /src/assets/plastic_cup.jpeg in 237.8369899999998ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_4.jpeg in 228.9048160000002ms
+Responsive Image sets generated for Picture at /src/assets/kitten_mug.jpeg in 238.30952799999977ms
+Responsive Image sets generated for Picture at /src/assets/paper_cup.jpeg in 232.4116610000001ms
+Responsive Image sets generated for Picture at /src/assets/cappuchinno.jpeg in 234.64686599999914ms
+Responsive Image sets generated for Picture at /src/assets/plastic_cup.jpeg in 232.7081419999995ms
+Responsive Image sets generated for Picture at /src/assets/kitten_mug.jpeg in 235.17157899999984ms
+Responsive Image sets generated for Picture at /src/assets/steel_mug.jpeg in 235.9058789999999ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coffee_4.jpeg in 230.33199699999932ms
+ (+272ms)
+19:01:46   ├─ /shop/buy-me-a-cocktail/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_gin_tonic.jpeg in 39.99211500000092ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 30.14126000000033ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 30.171336999999767ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_gin_tonic.jpeg in 30.277604000000792ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_gin_tonic.jpeg in 28.698347999999896ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 31.429363000001104ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_moscow_mule.jpeg in 69.87696799999867ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_moscow_mule.jpeg in 36.51789800000006ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_moscow_mule.jpeg in 34.025854000001345ms
+ (+78ms)
+19:01:46   ├─ /shop/buy-me-a-lambo/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/lamborghini.jpeg in 9.393535999999585ms
+Responsive Image sets generated for Picture at /src/assets/lamborghini.jpeg in 9.667562000000544ms
+ (+22ms)
+19:01:46   ├─ /shop/nebulix-license/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-00-start.jpg in 11.45460600000115ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-00-start.jpg in 13.196067000000767ms
+ (+29ms)
+19:01:47   ├─ /shop/starfunnel-license/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/starfunnel.jpg in 8.431509000000005ms
+Responsive Image sets generated for Picture at /src/assets/starfunnel.jpg in 9.755114999999932ms
+ (+24ms)
+19:01:47   ├─ /shop/cosmic-bean-bag/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-ben-bag.png in 7.788024000001315ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-ben-bag.png in 8.194512000000032ms
+ (+19ms)
+19:01:47   ├─ /shop/cosmic-nebulix/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-nebulix.png in 12.337391999999454ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-nebulix.png in 14.316353999998682ms
+ (+26ms)
+19:01:47   ├─ /shop/cosmic-bucket/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-bucket.png in 10.991224999999758ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-bucket.png in 13.664874999998574ms
+ (+26ms)
+19:01:47   ├─ /shop/cosmic-cap/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-1.png in 11.886779000000388ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-1.png in 13.657665999999153ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-1.png in 12.263594000000012ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-2.png in 22.5319870000003ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-2.png in 18.696634999998423ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_cap-2.png in 17.262000999999145ms
+ (+30ms)
+19:01:47   ├─ /shop/cosmic-dino/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago2.png in 9.044832999999926ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago2.png in 10.311385000000882ms
+ (+21ms)
+19:01:47   ├─ /shop/cosmic-drago/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago.png in 6.860941999999341ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago.png in 7.943398999999772ms
+ (+17ms)
+19:01:47   ├─ /shop/cosmic-hoodie/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix_hoodie.png in 13.474008999999569ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_hoodie.png in 13.847567000000709ms
+ (+24ms)
+19:01:47   ├─ /shop/cosmic-kitten/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cat.png in 7.958180999999968ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cat.png in 8.358532000000196ms
+ (+21ms)
+19:01:47   ├─ /shop/cosmic-t-shirt/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-tshirt-2.png in 9.118822999998883ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-tshirt-2.png in 10.380374000000302ms
+ (+24ms)
+19:01:47   ├─ /shop/cosmic-water-bottle/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_bottle.png in 6.905910000001313ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_water_bottle.png in 7.974555999999211ms
+ (+18ms)
+19:01:47   ├─ /shop/cosmic-wizard/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-wizy.png in 6.11580899999899ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-wizy.png in 6.358734999999797ms
+ (+18ms)
+19:01:47   ├─ /shop/cutie-beans/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cuty.png in 8.641437000000224ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cuty.png in 8.8653149999991ms
+ (+18ms)
+19:01:47   ├─ /shop/sneaker/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-gppms3u7 [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebulix-sneakers.png in 11.59679899999901ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-sneakers.png in 12.641923000001043ms
+Responsive Image sets generated for Picture at /src/assets/nebulix-sneakers.png in 11.980344999999943ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_sneaker-2.png in 24.683850999999777ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_sneaker-2.png in 15.85005099999944ms
+Responsive Image sets generated for Picture at /src/assets/nebulix_sneaker-2.png in 14.829573000000892ms
+ (+31ms)
+19:01:47   └─ /shop/i-love-nebulix-t-shirt/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-kwx2m7ql [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/t-shitrt-nebulix-3.jpg in 7.7322409999997035ms
+Responsive Image sets generated for Picture at /src/assets/t-shitrt-nebulix-3.jpg in 7.957738999999492ms
+ (+17ms)
+19:01:47 ▶ src/pages/work/tag/[...slug].astro
+19:01:47   ├─ /work/tag/portraits/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 8.307802999999694ms
+Responsive Image sets generated for Picture at /src/assets/pluche_collection.jpeg in 11.626051000001098ms
+ (+16ms)
+19:01:47   └─ /work/tag/intergalactic/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/project_a.jpeg in 8.008122000001094ms
+ (+12ms)
+19:01:47 ▶ src/pages/work/[...page].astro
+19:01:47   └─ /work/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nv7hfztk [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+ (+9ms)
+19:01:47 ▶ src/pages/work/[...slug].astro
+19:01:47   ├─ /work/crafting-the-perfect-cosmic-mojito/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/cosmic-aperol-spritz.jpeg in 34.51476899999943ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coctails_1.jpg in 43.68843100000049ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_mojito.jpeg in 39.91525899999942ms
+Responsive Image sets generated for Picture at /src/assets/cosmic-dark-and-stormy.jpeg in 46.39919200000077ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_moscow_mule.jpeg in 47.58282899999904ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_gin_tonic.jpeg in 46.90891399999964ms
+Responsive Image sets generated for Picture at /src/assets/long-island-iced-tea.jpeg in 46.4505850000005ms
+Responsive Image sets generated for Picture at /src/assets/cosmic_coctails_3.jpeg in 48.40262900000016ms
+ (+57ms)
+19:01:47   ├─ /work/unveiling-the-galactic-pluche-collection/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-nebulix.png in 11.422391000000061ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cat.png in 24.832448999999542ms
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-vlskakkl [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-cuty.png in 49.887799999998606ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago.png in 49.9947659999998ms
+Responsive Image sets generated for Picture at /src/assets/nebula_pluche-drago2.png in 49.946930999998585ms
+Responsive Image sets generated for Picture at /src/assets/pluche_collection.jpeg in 56.17955299999994ms
+Responsive Image sets generated for Picture at /src/assets/pluche_collection.jpeg in 29.306719000000157ms
+ (+65ms)
+19:01:47   └─ /work/project-a/index.html[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-7uerxe52 [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-nd3didwl [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/project_a.jpeg in 52.45834599999944ms
+Responsive Image sets generated for Picture at /src/assets/cration_universe.jpeg in 53.557473000000755ms
+Responsive Image sets generated for Picture at /src/assets/space_tutle.jpeg in 54.383544000000256ms
+Responsive Image sets generated for Picture at /src/assets/project_b.jpeg in 54.92537900000025ms
+Responsive Image sets generated for Picture at /src/assets/project_d.jpeg in 54.533808000000136ms
+Responsive Image sets generated for Picture at /src/assets/project_e.jpeg in 54.3770510000013ms
+Responsive Image sets generated for Picture at /src/assets/project_c.jpeg in 55.063459999999395ms
+Responsive Image sets generated for Picture at /src/assets/project_f.jpeg in 54.36607999999978ms
+Responsive Image sets generated for Picture at /src/assets/project_a.jpeg in 39.87100999999893ms
+ (+64ms)
+19:01:47 ▶ src/pages/[...slug].astro
+19:01:47   ├─ /about-nebulix/index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+[1m[36m[astro-imagetools][0m [43m data-astro-cid-v3xsbo6l [0m [33mis not a valid Picture Config Option[0m
+Responsive Image sets generated for Picture at /src/assets/ibiza.jpeg in 5.370974999999817ms
+ (+15ms)
+19:01:47   ├─ /index.html[1m[36m[astro-imagetools][0m [43m slot [0m [33mis not a valid Picture Config Option[0m
+Cannot read properties of undefined (reading 'split')
+  Stack trace:
+    at file:///home/jan/PROJECTS/astro/aleto-auto-skla/dist/chunks/BaseLayout_f19LaBov.mjs:2529:31
+    at AstroComponentInstance.init (file:///home/jan/PROJECTS/astro/aleto-auto-skla/dist/chunks/astro/server_Clsm2oGS.mjs:1155:29)
+    at async renderToString (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/runtime/server/render/astro/render.js:19:5)
+    at async lastNext (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/core/render-context.js:147:25)
+    at async callMiddleware (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/core/middleware/callMiddleware.js:11:10)
+    at async generatePath (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/core/build/generate.js:326:16)
+    at async generatePage (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/core/build/generate.js:178:9)
+    at async staticBuild (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/core/build/static-build.js:100:5)
+    at async AstroBuilder.run (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/core/build/index.js:182:7)
+    at async build (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/cli/build/index.js:24:3)
+    at async cli (file:///home/jan/PROJECTS/astro/aleto-auto-skla/node_modules/astro/dist/cli/index.js:175:5)

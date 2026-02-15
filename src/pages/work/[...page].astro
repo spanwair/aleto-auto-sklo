@@ -4,6 +4,9 @@ import { getEntry } from "astro:content";
 import PageLayoutArchive from "@layouts/PageLayoutArchive.astro";
 import { getCollection } from "astro:content";
 
+// Force static site generation
+export const prerender = true;
+
 export async function getStaticPaths({ paginate }) {
   const posts = (await getCollection("project")).sort(
     (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),

@@ -65,9 +65,9 @@ const contact = await getEntry("config", "contact");
         </div>
       </div>
     </Footer>
-    <Init client:idle />
+    <Init client:only="vue" />
 
-    <ContactDialog client:idle contact={contact.data.form}>
+    <ContactDialog client:only="vue" contact={contact.data.form}>
       {
         contact?.data?.form?.intro && (
           <div
@@ -103,13 +103,15 @@ const contact = await getEntry("config", "contact");
       <Icon name="close" class="w-6" />
     </ContactDialog>
 
-    <script>
-      const html = document.getElementsByTagName("html")[0];
-      const SmoothScroll = () => {
-        html.style["scroll-behavior"] = "auto";
-      };
-      SmoothScroll();
-      document.addEventListener("astro:beforeload", SmoothScroll);
+    <script is:inline>
+      if (typeof document !== "undefined") {
+        const html = document.getElementsByTagName("html")[0];
+        const SmoothScroll = () => {
+          html.style["scroll-behavior"] = "auto";
+        };
+        SmoothScroll();
+        document.addEventListener("astro:beforeload", SmoothScroll);
+      }
     </script>
   </body>
 </html>

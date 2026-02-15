@@ -1,213 +1,213 @@
 ---
-title: Nebulix, a Fast & Green Theme Based on Astro + Static CMS
-description: "A Universe of Possibilities: Blogs, Portfolios, Restaurant Menus,
-  Online Store, and Beyond"
-intro: "A Universe of Possibilities: Blogs, Portfolios, Restaurant Menus, Online
-  Store, and Beyond"
+title: Aleto Auto Skla Servis - Autoskla, Pneuservis, Servis Vozidel
+description: "Profesionální výměna autoskel i mobilně u vás doma! Pneuservis, diagnostika, servis vozidel. Ochoz u Konice. Tel: 731 409 899 / 608 102 471"
+intro: "Autoskla i mobilně - přijedeme k vám domů!"
 hero_template: image
 template: full
-container: md
+container: lg
 hero_buttons:
   - component: Link
-    label: Learn More
-    href: "#more"
+    label: Zavolat 731 409 899
+    href: "tel:+420731409899"
     class: surface-primary
     icon_only: false
-    icon: /src/icons/down-line.svg
+    icon: /src/icons/phone.svg
     color: surface-primary
   - component: Link
-    label: docs
-    href: /blog/tag/docs
-    class: optional
+    label: Zavolat 608 102 471
+    href: "tel:+420608102471"
+    class: surface-warning
     icon_only: false
-    icon: /src/icons/page.svg
-pubDate: Jul 08 2022
-layout-hidden: blog
+    icon: /src/icons/phone.svg
+    color: surface-warning
+pubDate: 2026-02-15
 blocks:
+  - type: custom
+    component: EmergencyCallBanner
+    block_class: "my-0"
+
+  - type: rich_text
+    component: RichText
+    container: md
+    content: >
+      ## Komplexní autoservis v Ochozi u Konice
+
+
+      Jsme profesionální autoservis specializující se na **výměnu autoskel**, **pneuservis** a **servis vozidel** všech značek. Naší specialitou je **mobilní výměna autoskel** - přijedeme k vám domů nebo do práce zdarma!
+    block_class: "py-20 text-center"
+
   - type: features
     component: Features
     container: lg
-    block_class: " py-20 text-center"
+    block_class: "py-24 text-center"
     features:
       - content: >
-          ### Tailwind CSS
+          ### Autoskla
 
 
-          Transform your template's appearance with the beloved Tailwind CSS framework. Easily customize your design, bringing your unique vision to life.
-        icon: /src/icons/tailwind.svg
-        color: bg-[#38bdf8] text-white
-      - color: bg-[#fc0] text-black
-        icon: /src/icons/shop.svg
-        content: >
-          ### Webshop
-
-
-          Experience a straightforward webshop, powered by SnapCart. It seamlessly handles product variations and even accommodates digital products.
-      - icon: /src/icons/blocks-group-solid.svg
-        content: >
-          ### Page Block Builder
-
-
-          Craft your perfect page effortlessly with our selection of versatile blocks. Customize and extend your page exactly the way you want it.
-        color: surface-secondary
-        href: ""
-      - content: >
-          ### Full-Text Search
-
-
-          Experience lightning-fast full-text search capabilities with Pagefind. Our integrated search engine seamlessly enhances your site's user experience.
-        icon: /src/icons/book-search-24-regular.svg
-        color: surface-accent
-      - icon: /src/icons/template.svg
-        content: >
-          ### Multiple Templates
-
-
-          Tailor your website to perfection with a variety of templates for pages, blogs, shops, portfolios, and menus. Craft each page precisely as you envision.
-        color: surface-success
-        href: ""
-      - icon: /src/icons/menu.svg
-        content: >
-          ### Restaurant Menu
-
-
-          Explore our user-friendly menu, thoughtfully designed with clear labels and detailed information about allergens for your dining peace of mind.
-        color: surface-warning
-        href: ""
-      - href: "#"
-        icon: /src/icons/git.svg
-        content: >
-          ### Git-Based
-
-
-          With Astro + Static CMS, your content finds its home in a Git repository, ensuring efficient content management and collaboration.
+          Výměna a oprava všech typů autoskel. **Mobilní servis ZDARMA** - přijedeme k vám! Vyřídíme za vás pojišťovnu.
+        icon: /src/icons/car.svg
         color: surface-primary
       - content: >
-          ### Light & Darkmode
+          ### Pneuservis
 
 
-          Give your visitors the freedom to choose their preferred color scheme, ensuring a personalized browsing experience.
-        color: surface-dark
-        icon: /src/icons/dark-theme-20-filled.svg
-    content: |+
-      ## Nebulix Features
+          Přezutí pneumatik, vyvážení, uskladnění. Profesionální vybavení Redats. Servis pro osobní i dodávková vozidla.
+        icon: /src/icons/settings.svg
+        color: surface-secondary
+      - content: >
+          ### Servis vozidel
 
 
+          Servis všech značek vozidel, mechanické opravy, výměna dílů, běžná údržba.
+        icon: /src/icons/wrench.svg
+        color: surface-accent
+      - content: >
+          ### Diagnostika
 
 
-    surface: bg-slate-200 text-dark dark:bg-slate-900 dark:text-white
+          Profesionální diagnostické vybavení a software. Identifikace problémů, čtení chybových kódů.
+        icon: /src/icons/search.svg
+        color: surface-info
+      - content: >
+          ### Leštění světel
+
+
+          Profesionální renovace zamlžených a poškrábaných světlometů. Vrátíme jim čistotu a bezpečnost.
+        icon: /src/icons/sun.svg
+        color: surface-warning
+      - content: >
+          ### Příprava na STK
+
+
+          Důkladná kontrola vozidla, opravy v případě potřeby. Projděte STK bez problémů!
+        icon: /src/icons/check.svg
+        color: surface-success
+    content: |
+      ## Naše služby
+
+    surface: bg-slate-100 text-dark dark:bg-slate-900 dark:text-white
+
   - type: text_image
     component: TextImage
     container: md
     template: column
-    title: My Image
-    image_size: "66"
-    reverse: true
-    animate: false
-    block_class: ""
-    thumbnail: /src/assets/perfect_pagespeed_scores.png
-    content: >
-      ## **A perfect page speed score** Optimized Speed and Accessibility
-
-
-      Our perfect 100% page speed score and compliance with WCAG 2.1 AA standards reflect our commitment. We've optimized speed and accessibility, ensuring a superior user experience for all.
-  - type: recentitems
-    component: RecentItems
-    page_type: blog
-    count: 3
-    container: md
-    template: list
+    title: Mobilní výměna autoskel
+    image_size: "50"
+    reverse: false
     animate: true
-    post_tag:
-      - Docs
-    title: Check out our documentation
-    surface: bg-slate-200 text-dark dark:bg-slate-800 dark:text-white
+    block_class: "py-24"
+    image: /src/assets/aleto/Messenger_creation_BACB60E1-306C-41AD-AACB-DFFA3678448B.jpeg
+    images:
+      - image: /src/assets/aleto/Messenger_creation_BACB60E1-306C-41AD-AACB-DFFA3678448B.jpeg
+      - image: /src/assets/aleto/Messenger_creation_DA796D02-C00C-430F-8500-734D434BA0E3.jpeg
+      - image: /src/assets/aleto/Messenger_creation_E440A7FD-603A-4B97-8C8E-F72D55415D21.jpeg
+      - image: /src/assets/aleto/Messenger_creation_36951297-7C7D-42AE-B778-4312D417B77E.jpeg
     content: >
-      Getting started is easy, just clone the repo, configure and you are ready
-      to go.
-  - type: text_image
-    component: TextImage
-    container: none
-    template: banner
-    title: My Image
-    reverse: true
+      ## **NOVINKA!** Měníme autoskla mobilně!
+
+
+      Nemusíte nikam jezdit - **přijedeme k vám domů nebo do práce zdarma!** Výměnu provedeme přímo na místě s profesionálním vybavením. Ušetříte čas a starosti.
+
+
+      ### Co za vás vyřídíme:
+
+      - ✅ Veškerou komunikaci s pojišťovnou
+
+      - ✅ Profesionální instalaci kvalitními materiály
+
+      - ✅ Mobilní servis bez příplatku
+
+      - ✅ Rychlé jednání a termíny
+
+  - type: rich_text
+    component: RichText
+    container: md
     content: >
-      ## Nebulix Webshop
+      ## Proč si vybrat Aleto?
 
 
-      Discover the seamless integration of Snipcart, empowering you to efficiently oversee your store directly within a Static CMS. Whether your offerings include digital products or physical goods, Snipcart boasts a wealth of exceptional features, making it an ideal choice for the majority of small webshops. 
+      ### Profesionální vybavení
+
+      Moderní diagnostické přístroje a profesionální vyvažovačky pneumatik značky Redats.
 
 
-      Read more about [SnipCart](https://snipcart.com/).
-    thumbnail: /src/assets/nebulix_merch.jpeg
-    buttons:
-      - icon_only: false
-        label: Demo Shop
-        href: /shop
-        icon: /src/icons/shop.svg
-        color: surface-primary
-    aspect: ""
-    image_size: ""
-    animate: false
-    block_class: my-0
+      ### Vyřízení pojišťovny
+
+      U autoskel vyřídíme veškerou komunikaci s pojišťovnou za vás.
+
+
+      ### Všechny značky
+
+      Servisujeme vozidla všech značek - osobní i dodávková.
+
+
+      ### Rychlost a spolehlivost
+
+      Rychlé jednání, profesionální přístup, kvalitní práce.
+
+
+      ### Mobilní servis
+
+      Výměna autoskel přímo u vás - zdarma!
+
+
+      ### Odborní technici
+
+      Zkušený tým s profesionálním přístupem k zákazníkům.
+    block_class: "py-24 text-center"
+    surface: bg-slate-50 dark:bg-slate-800
+
   - type: rich_text
     component: RichText
     container: sm
     content: >
-      ## Nebulix Portfolio
+      ## Kontaktujte nás
 
 
-      Need to show your skills, select a good template and build your portfolio with nebulix.
-    buttons:
-      - icon_only: false
-        label: Portfolio Demo
-        href: /work
-        color: surface-primary
-        icon: /src/icons/portfolio.svg
-    block_class: py-20 text-center
-  - type: text_image
-    component: TextImage
-    container: none
-    template: banner
-    image_size: ""
-    title: My Image
-    reverse: false
-    animate: false
-    thumbnail: /src/assets/cosmic_coctails_3.jpeg
-    content: >+
-      ## Nebulix Restaurant Menus
+      Máte dotaz nebo potřebujete objednat servis? Zavolejte nám nebo vyplňte kontaktní formulář.
+    block_class: "py-20 text-center"
 
+  - type: custom
+    component: ContactForm
+    container: sm
+    block_class: "pb-24"
 
-      Create a great menu, you can even shop arlercic information and labels. All menu's are mobile friendly and fast!
+  - type: rich_text
+    component: RichText
+    container: md
+    content: >
+      ## Kde nás najdete
+    block_class: "pt-24 pb-12 text-center"
 
+  - type: custom
+    component: GoogleMap
+    container: lg
+    block_class: "pb-24"
 
+  - type: custom
+    component: QRCode
+    container: sm
+    block_class: "pb-24"
 
-
-
-
-
-
-    buttons:
-      - icon_only: false
-        label: Demo Menu
-        color: surface-primary
-        icon: /src/icons/menu.svg
-        href: /menu/drinks
-        class_name: py-0
-    block_class: my-0
 style:
   hero_template: image
   template: full
-  container: sm
-  content_class: py-20 text-center
+  container: lg
+  content_class: text-center
   page_class: ""
   card_template: grid
   hero_surface: surface-dark
-  hero_image_opacity: ""
-thumbnail: /src/assets/nemulala.jpg
-og_image: /src/assets/og_image_nebulix.png
+  hero_image_opacity: "0.4"
+thumbnail: /src/assets/aleto/Messenger_creation_A61ECAE0-E4E3-48C5-97BA-E8242E374078.jpeg
 ---
 
-## Astro powered, fast by design.
+<div class="py-24">
 
-Experience web performance at its zenith with Nebulix, driven by the speed-centric Astro framework. Your site will load in the blink of an eye, delivering an unparalleled user experience. Say goodbye to sluggishness and embrace the rapidity of Nebula for your website.
+## Bezpečnost a kvalita na prvním místě
+
+Pneumatiky a pravidelný servis pneumatik jsou klíčem k bezpečnosti. Mechanická stránka vozu je velmi důležitou součástí vaší i cizí bezpečnosti. Svěřte svůj vůz do rukou profesionálů.
+
+**Aleto Auto Skla Servis** - váš partner pro kompletní péči o automobil v Ochozi u Konice a okolí.
+
+</div>

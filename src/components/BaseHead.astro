@@ -62,23 +62,26 @@ const pageTitle = `${title} | ${data.sitename}`;
 {socialImage && <meta property="twitter:image" content={socialImage} />}
 
 <script is:inline>
-  const setDarkMode = () => {
-    if (localStorage.getItem("color-scheme") === "dark") {
-      document.querySelector("html").dataset.theme = "dark";
-    }
-    if (localStorage.getItem("color-scheme") === "light") {
-      document.querySelector("html").dataset.theme = "light";
-    }
-    if (!localStorage.getItem("color-scheme")) {
-      let theme = window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light";
-      localStorage.setItem("color-scheme", theme);
-      document.querySelector("html").dataset.theme = theme;
-    }
-  };
-  setDarkMode();
-  document.addEventListener("astro:after-swap", setDarkMode);
+  // Only run on client-side
+  if (typeof document !== "undefined") {
+    const setDarkMode = () => {
+      if (localStorage.getItem("color-scheme") === "dark") {
+        document.querySelector("html").dataset.theme = "dark";
+      }
+      if (localStorage.getItem("color-scheme") === "light") {
+        document.querySelector("html").dataset.theme = "light";
+      }
+      if (!localStorage.getItem("color-scheme")) {
+        let theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light";
+        localStorage.setItem("color-scheme", theme);
+        document.querySelector("html").dataset.theme = theme;
+      }
+    };
+    setDarkMode();
+    document.addEventListener("astro:after-swap", setDarkMode);
+  }
 </script>
 
 <ViewTransitions fallback="swap" />

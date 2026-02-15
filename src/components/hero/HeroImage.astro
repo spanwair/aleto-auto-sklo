@@ -70,25 +70,29 @@ const { slug } = Astro.params;
   <div
     class="absolute inset-0 z-10 grid place-items-center bg-dark bg-opacity-20"
   >
-    <div class="container-xl py-8">
-      <div class="max-w-3xl">
+    <div class="container-xl py-12 md:py-24">
+      <div class="glass max-w-3xl p-8 md:p-12">
         {
           pubDate && (
-            <span class="text-overline">
+            <span class="text-overline mb-4 block text-accent">
               <FormattedDate date={pubDate} />
             </span>
           )
         }
-        <h1 class="title">
+        <h1 class="title mb-6">
           {title}
         </h1>
-        {intro && <div class="subtitle balance py2"> {intro}</div>}
+        {
+          intro && (
+            <div class="subtitle balance py-4 text-white/90"> {intro}</div>
+          )
+        }
 
         {
           tag && (
             <ItemFilter
               filters={tag}
-              className="mt-4 justify-start"
+              className="mt-6 justify-start"
               links={true}
               {base_url}
             />
@@ -99,7 +103,7 @@ const { slug } = Astro.params;
           filters && (
             <ItemFilter
               filters={filters}
-              className="mt-4"
+              className="mt-6"
               links={true}
               active={filter}
               type={filter_type}
@@ -109,7 +113,7 @@ const { slug } = Astro.params;
         }
         {
           hero_buttons && hero_buttons.length > 0 && (
-            <div class="flex flex-wrap gap-4 py-8">
+            <div class="flex flex-wrap gap-6 py-8">
               {hero_buttons.map((btn) => (
                 <Button {...btn} />
               ))}

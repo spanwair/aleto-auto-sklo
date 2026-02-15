@@ -1,0 +1,54 @@
+---
+interface Props {
+  class?: string;
+  title?: string;
+  url?: string;
+}
+
+const {
+  class: className = "",
+  title = "Sledujte nás na Instagramu",
+  url = "https://www.instagram.com/aletoservis",
+} = Astro.props;
+---
+
+<div
+  class={`qr-code-block bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-xl flex flex-col items-center text-center ${className}`}
+>
+  {
+    title && (
+      <h3 class="mb-6 text-xl font-bold text-dark dark:text-white">{title}</h3>
+    )
+  }
+
+  <div
+    class="qr-wrapper rounded-xl border border-slate-100 bg-white p-4 shadow-inner"
+  >
+    <!-- Using a placeholder QR code image that looks professional -->
+    <img
+      src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.instagram.com/aletoservis&color=0f172a"
+      alt="QR Code Aleto Auto Skla"
+      class="block h-48 w-48"
+      loading="lazy"
+    />
+  </div>
+
+  <p class="mt-6 text-sm opacity-70">
+    Naskenujte kód pro rychlý přístup na náš profil
+  </p>
+
+  <a
+    href={url}
+    target="_blank"
+    class="mt-4 font-semibold text-accent hover:underline"
+  >
+    {url.replace("https://", "")}
+  </a>
+</div>
+
+<style>
+  .qr-code-block {
+    max-width: 400px;
+    margin-inline: auto;
+  }
+</style>

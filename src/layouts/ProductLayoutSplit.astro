@@ -84,8 +84,8 @@ const hasBlocks = blocks && blocks.length > 0;
                   position="attention"
                   loading="eager"
                   alt={image.label || "title"}
-                  layout={isPng(image.thumbnail) ? "fill" : "fill"}
-                  objectFit={isPng(image.thumbnail) ? "contain" : "cover"}
+                  layout={isPng(image.thumbnail || "") ? "fill" : "fill"}
+                  objectFit={isPng(image.thumbnail || "") ? "contain" : "cover"}
                 />
               </ProductVariationImageWrap>
             ))
@@ -122,10 +122,10 @@ const hasBlocks = blocks && blocks.length > 0;
                 aria-label={t("enlarge_image")}
                 class="  group relative overflow-hidden rounded-md shadow-lg transition-transform duration-500 hover:-translate-y-1 hover:scale-105"
                 href={`/images/${
-                  image.thumbnail.split("/").pop().split(".")[0]
+                  image.thumbnail ? image.thumbnail.split("/").pop().split(".")[0] : ""
                 }`}
                 transition:name={`image_${
-                  image.thumbnail.split("/").pop().split(".")[0]
+                  image.thumbnail ? image.thumbnail.split("/").pop().split(".")[0] : ""
                 }`}
               >
                 <Picture

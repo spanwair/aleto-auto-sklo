@@ -7,31 +7,32 @@ const { content, container, features } = Astro.props;
 ---
 
 <Intersecting client:visible className="w-full">
-  <div
-    class={`container-${container} fade-up rounded-md surface-white features grid gap-8`}
-  >
-    <div set:html={marked.parse(content)} class="richtext fade-up" />
+  <div class={`container-${container} fade-up features grid gap-12`}>
+    <div
+      set:html={marked.parse(content)}
+      class="richtext fade-up mb-8 text-center"
+    />
 
     {
       features && (
-        <ul class="features my-10 flex flex-wrap justify-center gap-4 ">
+        <ul class="features my-10 flex flex-wrap justify-center gap-8 ">
           {features.map((feature, index) => (
             <li
-              class={`features__item fade-up flex flex-1 flex-col items-center rounded-md text-center`}
+              class={`features__item fade-up glass flex flex-1 flex-col items-center p-8 text-center transition-all duration-500 hover:-translate-y-2 hover:bg-white/10 hover:shadow-2xl`}
               style={`--animation-delay: ${(index + 1) * 150}ms`}
             >
               {feature.icon && (
                 <div
                   class={`${
                     feature.color || "surface-primary"
-                  } grid h-14 w-14 place-items-center overflow-hidden rounded-full`}
+                  } mb-6 grid h-16 w-16 place-items-center overflow-hidden rounded-full shadow-inner`}
                 >
-                  <Icon name={getIconName(feature.icon)} class={`h-8 w-8 `} />
+                  <Icon name={getIconName(feature.icon)} class={`h-9 w-9 `} />
                 </div>
               )}
               <div
                 set:html={marked.parse(feature.content)}
-                class="richtext no-lead px-4 py-8"
+                class="richtext no-lead"
               />
             </li>
           ))}

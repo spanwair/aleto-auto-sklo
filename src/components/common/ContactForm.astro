@@ -1,0 +1,141 @@
+---
+// Contact form with Web3Forms integration
+interface Props {
+  class?: string;
+}
+
+const { class: className = "" } = Astro.props;
+
+// Web3Forms access key - user needs to replace with their own
+const WEB3FORMS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY_HERE";
+---
+
+<div class={`contact-form-container ${className}`}>
+  <form
+    id="contact-form"
+    action="https://api.web3forms.com/submit"
+    method="POST"
+    class="space-y-4"
+  >
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
+
+    <!-- Redirect URL after submission (optional) -->
+    <input
+      type="hidden"
+      name="redirect"
+      value="https://aleto-autoskla.cz/dekujeme"
+    />
+
+    <!-- Email recipient -->
+    <input type="hidden" name="from_name" value="Aleto Web Formulář" />
+
+    <!-- Name Field -->
+    <div>
+      <label for="name" class="mb-1 block text-sm font-medium">
+        Jméno <span class="text-danger">*</span>
+      </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-gray-800"
+        placeholder="Vaše jméno"
+      />
+    </div>
+
+    <!-- Phone Field -->
+    <div>
+      <label for="phone" class="mb-1 block text-sm font-medium">
+        Telefon <span class="text-danger">*</span>
+      </label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        required
+        pattern="[0-9\s\+\-\(\)]+"
+        class="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-gray-800"
+        placeholder="Váš telefon"
+      />
+    </div>
+
+    <!-- Email Field -->
+    <div>
+      <label for="email" class="mb-1 block text-sm font-medium">
+        E-mail <span class="text-danger">*</span>
+      </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        class="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-gray-800"
+        placeholder="vas@email.cz"
+      />
+    </div>
+
+    <!-- Service Type Dropdown -->
+    <div>
+      <label for="service" class="mb-1 block text-sm font-medium">
+        Typ služby
+      </label>
+      <select
+        id="service"
+        name="service"
+        class="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-gray-800"
+      >
+        <option value="">Vyberte službu...</option>
+        <option value="autoskla">Autoskla (výměna/oprava)</option>
+        <option value="pneuservis">Pneuservis</option>
+        <option value="servis">Servis vozidel</option>
+        <option value="diagnostika">Diagnostika</option>
+        <option value="lesteni">Leštění světel</option>
+        <option value="stk">Příprava na STK</option>
+        <option value="jine">Jiné</option>
+      </select>
+    </div>
+
+    <!-- Message Field -->
+    <div>
+      <label for="message" class="mb-1 block text-sm font-medium">
+        Zpráva
+      </label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        class="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-gray-800"
+        placeholder="Popište prosím váš požadavek..."></textarea>
+    </div>
+
+    <!-- Honeypot for spam protection -->
+    <input
+      type="checkbox"
+      name="botcheck"
+      class="hidden"
+      style="display: none;"
+    />
+
+    <!-- Submit Button -->
+    <div>
+      <button
+        type="submit"
+        class="btn surface-primary w-full py-3 text-lg font-semibold hover:scale-105"
+      >
+        Odeslat zprávu
+      </button>
+    </div>
+
+    <!-- Success/Error Messages -->
+    <div id="form-message" class="hidden rounded-md p-4 text-center"></div>
+  </form>
+</div>
+
+<style>
+  /* Additional form styling if needed */
+  .contact-form-container {
+    max-width: 600px;
+  }
+</style>

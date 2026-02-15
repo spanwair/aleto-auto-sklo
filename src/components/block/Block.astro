@@ -7,20 +7,42 @@ import Features from "./Features.astro";
 import ShopCategories from "./ShopCategories.astro";
 import ShopProducts from "./ShopProducts.astro";
 import PricingTable from "./PricingTable.astro";
+
+// Missing imports
+import GoogleMap from "@components/common/GoogleMap.astro";
+import ContactForm from "@components/common/ContactForm.astro";
+import EmergencyCallBanner from "@components/common/EmergencyCallBanner.astro";
+import QRCode from "@components/common/QRCode.astro";
+
 const { slot, ...props } = Astro.props;
+const containerClass = props.container
+  ? `container-${props.container} px-6`
+  : "px-6";
 ---
 
 <section
   class={`${props.surface || ""} ${
-    props.block_class ? props.block_class : "py-8 sm:py-20"
+    props.block_class ? props.block_class : "py-12 sm:py-24"
   }`}
 >
-  {props.component === "ImageGallery" && <ImageGallery {...props} />}
-  {props.component === "TextImage" && <TextImage {...props} />}
-  {props.component === "RecentItems" && <RecentItems {...props} />}
-  {props.component === "RichText" && <RichText {...props} />}
-  {props.component === "Features" && <Features {...props} />}
-  {props.component === "ShopCategories" && <ShopCategories {...props} />}
-  {props.component === "ShopProducts" && <ShopProducts {...props} />}
-  {props.component === "PricingTable" && <PricingTable {...props} />}
+  <div class={containerClass}>
+    {props.component === "ImageGallery" && <ImageGallery {...props} />}
+    {props.component === "TextImage" && <TextImage {...props} />}
+    {props.component === "RecentItems" && <RecentItems {...props} />}
+    {props.component === "RichText" && <RichText {...props} />}
+    {props.component === "Features" && <Features {...props} />}
+    {props.component === "ShopCategories" && <ShopCategories {...props} />}
+    {props.component === "ShopProducts" && <ShopProducts {...props} />}
+    {props.component === "PricingTable" && <PricingTable {...props} />}
+
+    <!-- Custom Components -->
+    {props.component === "GoogleMap" && <GoogleMap {...props} />}
+    {props.component === "ContactForm" && <ContactForm {...props} />}
+    {
+      props.component === "EmergencyCallBanner" && (
+        <EmergencyCallBanner {...props} />
+      )
+    }
+    {props.component === "QRCode" && <QRCode {...props} />}
+  </div>
 </section>
