@@ -1,7 +1,6 @@
 ---
 import { formatPrice } from "@util/toLocale";
 import Intersecting from "@components/common/Intersecting.vue";
-import { Picture } from "astro-imagetools/components";
 import { marked } from "marked";
 import Label from "@components/menu/Label.astro";
 import { slugify } from "@util/helpers";
@@ -43,18 +42,11 @@ const { categories } = Astro.props;
                       aria-label={t("enlarge_image")}
                     >
                       <div class="overflow-hidden rounded-md">
-                        <Picture
+                        <img
                           src={item.thumbnail}
-                          width={500}
-                          breakpoints={[
-                            320, 360, 390, 412, 500, 601, 768, 1024, 1200,
-                          ]}
-                          sizes="(min-width: 640px) calc(55rem / 2 - 0.66rem),(min-width: 768px) calc(55rem / 3 - 0.66rem), 100vw"
-                          position="attention"
-                          fit="fullWidth"
                           alt={item.title}
-                          height={400}
-                          ar={1.25}
+                          loading="lazy"
+                          class="aspect-[5/4] h-auto w-full object-cover"
                         />
                       </div>
                     </a>

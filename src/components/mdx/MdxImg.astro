@@ -1,6 +1,5 @@
 ---
-import { Picture } from "astro-imagetools/components";
-const { slot, ...props } = Astro.props;
+const { ...props } = Astro.props;
 import Intersecting from "@components/common/Intersecting.vue";
 import { t } from "@util/translate";
 const imageName = props.src.split("/").pop().split(".")[0];
@@ -35,17 +34,11 @@ const isSvg = !isPixelBasedImage(ext);
         transition:name={`image_${imgAlt}`}
         aria-label={t("enlarge_image")}
       >
-        <Picture
-          {...Object.fromEntries(
-            Object.entries(props).filter(
-              ([key]) => key !== "slot" && !key.startsWith("data-"),
-            ),
-          )}
+        <img
+          src={props.src}
           alt={imgAlt}
-          width={768}
-          breakpoints={[
-            360, 390, 412, 601, 768, 820, 962, 1280, 1440, 1536, 1920,
-          ]}
+          loading="lazy"
+          class="h-auto w-full rounded"
         />
       </a>
     </Intersecting>

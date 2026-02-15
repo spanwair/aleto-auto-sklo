@@ -1,5 +1,4 @@
 ---
-import { Picture } from "astro-imagetools/components";
 import Button from "@components/navigation/Button.astro";
 import ItemFilter from "@components/navigation/ItemFilter.astro";
 import FormattedDate from "@components/FormattedDate.astro";
@@ -26,42 +25,17 @@ const { slug } = Astro.params;
     style.hero_surface || "surface-dark"
   } ${style.hero_class || ""}`}
   transition:name={`hero_${slug || Math.random()}`}
+  style="min-height: 100vh;"
   id="header"
 >
   {
     thumbnail && (
-      <div class="media parallax h-full w-full">
-        <Picture
-          attributes={{
-            picture: {
-              class: "sm:h-screen",
-              style: `opacity: ${style.hero_image_opacity || 0.7}`,
-            },
-          }}
+      <div class="media parallax w-full">
+        <img
           src={thumbnail}
-          width={1920}
-          height={1080}
-          ar={16 / 10}
           alt={title}
-          breakpoints={[1000, 1280, 1440, 1536, 1920]}
-          sizes="100vw"
           loading="eager"
-          layout="fill"
-          position="entropy"
-          artDirectives={[
-            {
-              media: "(max-width: 500px)",
-              ar: 0.6,
-              src: thumbnail,
-              breakpoints: [320, 360, 390, 412, 500, 601, 768, 1024, 1200],
-            },
-            {
-              media: "(max-width: 1000px)",
-              ar: 1,
-              src: thumbnail,
-              breakpoints: [500, 601, 768, 820, 962, 1280, 1440, 1536, 1920],
-            },
-          ]}
+          class="w-full object-cover object-top"
         />
       </div>
     )
@@ -128,9 +102,7 @@ const { slug } = Astro.params;
 
 <style>
   .hero {
-    @screen sm {
-      min-height: calc(100svh - 4rem);
-    }
+    /* Remove min-height on mobile, only apply on larger screens */
   }
   .media {
     @screen sm {

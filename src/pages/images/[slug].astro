@@ -6,7 +6,6 @@ import ImageNav from "@components/navigation/ImageNav.vue";
 import { Icon } from "astro-icon/components";
 import { t } from "@util/translate";
 import { getImageTransitionName } from "@util/helpers";
-import { Picture } from "astro-imagetools/components";
 import SnipCart from "@components/shop/SnipCartInit.vue";
 import CartButton from "@components/shop/CartButton.vue";
 
@@ -85,15 +84,11 @@ const title = toHeaderCase(slug);
         client:idle
         transition:name={`${getImageTransitionName(image)}`}
       >
-        <Picture
+        <img
           src={image}
           alt={title}
-          attributes={{ img: { class: "max-h-screen " } }}
-          breakpoints={[1000, 1280, 1440, 1536, 1920]}
-          sizes="100vw"
-          objectFit="contain"
           loading="eager"
-          layout="fill"
+          class="max-h-screen w-auto object-contain"
         />
       </PanZoom>
     </ImageNav>

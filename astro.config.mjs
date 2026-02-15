@@ -1,5 +1,4 @@
 import { defineConfig } from "astro/config";
-import { astroImageTools } from "astro-imagetools";
 import icon from "astro-icon";
 import mdx from "@astrojs/mdx";
 import m2dx from "astro-m2dx";
@@ -33,18 +32,6 @@ export default defineConfig({
     vue({
       appEntrypoint: "/src/pages/_app",
     }),
-    astroImageTools,
-    {
-      name: "vercel-fix",
-      hooks: {
-        "astro:build:done": () => {
-          setTimeout(() => {
-            console.log("Forcing exit to prevent build hang...");
-            process.exit(0);
-          }, 1000);
-        },
-      },
-    },
   ],
   markdown: {
     extendDefaultPlugins: true,

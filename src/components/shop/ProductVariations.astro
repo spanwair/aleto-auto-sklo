@@ -1,6 +1,5 @@
 ---
 import { formatPrice } from "@util/toLocale";
-import { Picture } from "astro-imagetools/components";
 import VariationButton from "./VariationButton.vue";
 import VariationInput from "./VariationInput.vue";
 
@@ -49,25 +48,17 @@ const optionsArr = variations.map((option, index) => {
                 group={option.id}
                 className={`variation-item$${
                   opt.thumbnail ? "" : "fit"
-                } rounded-md overflow-hidden px-2 py-4  flex-1 group surface-overlay-hover-btn z-10`}
+                } surface-overlay-hover-btn group z-10 flex-1  overflow-hidden rounded-md px-2 py-4`}
                 client:visible
               >
                 {opt.thumbnail && option.show_images && (
                   <div class="transition-transform duration-500 group-hover:-translate-y-1 group-hover:scale-105">
-                    <Picture
-                      attributes={{
-                        picture: {
-                          style: "--animation-delay: 0.6s",
-                          class: "z-0  fade-in  overflow-hidden rounded-md",
-                        },
-                      }}
-                      position="attention"
+                    <img
                       src={opt.thumbnail}
-                      width={70}
-                      height={70}
-                      ar={1}
                       alt={opt.label}
-                      layout="fixed"
+                      loading="lazy"
+                      class="fade-in z-0 h-[70px] w-[70px] overflow-hidden rounded-md object-cover"
+                      style="--animation-delay: 0.6s"
                     />
                   </div>
                 )}

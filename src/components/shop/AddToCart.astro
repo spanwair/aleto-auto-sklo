@@ -1,7 +1,6 @@
 ---
 import { Icon } from "astro-icon/components";
 import { t } from "@util/translate";
-import { importImage } from "astro-imagetools/api";
 import ProductPrice from "./ProductPrice.vue";
 const {
   thumbnail,
@@ -24,9 +23,8 @@ const {
 } = Astro.props;
 const bas_url = import.meta.env.SHOP_SLUG;
 const productPrice = offer_price > 0 ? offer_price : price;
-const thumb = await importImage(
-  `${thumbnail}?w=120&h=120&ar=1&position=entropy`,
-);
+// Use thumbnail directly - Snipcart will handle the image
+const thumb = thumbnail;
 let customOption = {};
 /* SET ALL PRODUCT OPTIONS */
 if (is_digital) {

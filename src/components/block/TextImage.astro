@@ -1,5 +1,4 @@
 ---
-import { Picture } from "astro-imagetools/components";
 import { Icon } from "astro-icon/components";
 import { marked } from "marked";
 import Intersecting from "@components/common/Intersecting.vue";
@@ -62,13 +61,11 @@ const animation = `image_${animate ? imageName : Math.random()}`;
           <div class="grid grid-cols-2 gap-4">
             {images.slice(0, 4).map((img, idx) => (
               <div class="overflow-hidden rounded-xl shadow-lg transition-transform duration-500 hover:scale-105">
-                <Picture
+                <img
                   src={img.image || img}
                   alt={`${title} detail ${idx + 1}`}
-                  breakpoints={[360, 768]}
-                  layout="fullWidth"
-                  aspect="1:1"
-                  position="attention"
+                  loading="lazy"
+                  class="aspect-square h-auto w-full object-cover"
                 />
               </div>
             ))}
@@ -87,17 +84,11 @@ const animation = `image_${animate ? imageName : Math.random()}`;
                   <div
                     class={`transition-transform duration-1000 ease-in hover:scale-105 hover:duration-[1s]`}
                   >
-                    <Picture
+                    <img
                       src={thumbnail}
-                      breakpoints={[
-                        360, 390, 412, 601, 768, 820, 962, 1280, 1440, 1536,
-                        1920,
-                      ]}
                       alt={title}
-                      layout="fullWidth"
-                      aspect={aspect}
-                      position="attention"
-                      sizes={sizes}
+                      loading="lazy"
+                      class={`h-auto w-full ${aspect ? `aspect-[${aspect}]` : ""} object-cover`}
                     />
                   </div>
                   <div class="absolute right-2 top-2 z-10 h-14 w-14 rounded-full bg-dark bg-opacity-40 text-white opacity-0 transition-all duration-1000 group-hover:opacity-100">
@@ -110,35 +101,11 @@ const animation = `image_${animate ? imageName : Math.random()}`;
               )}
 
               {template === "banner" && (
-                <Picture
-                  attributes={{ picture: { class: "parallax" } }}
+                <img
                   src={thumbnail}
-                  width={1920}
-                  height={900}
-                  ar={2.25}
                   alt={title}
-                  layout="fill"
-                  breakpoints={[1000, 1280, 1440, 1536, 1920]}
-                  position="attention"
-                  sizes={sizes}
-                  artDirectives={[
-                    {
-                      media: "(max-width: 500px)",
-                      ar: 0.7,
-                      src: thumbnail,
-                      breakpoints: [
-                        320, 360, 390, 412, 500, 601, 768, 1024, 1200,
-                      ],
-                    },
-                    {
-                      media: "(max-width: 1000px)",
-                      ar: 1,
-                      src: thumbnail,
-                      breakpoints: [
-                        500, 601, 768, 820, 962, 1280, 1440, 1536, 1920,
-                      ],
-                    },
-                  ]}
+                  loading="lazy"
+                  class="parallax h-full w-full object-cover"
                 />
               )}
             </>
