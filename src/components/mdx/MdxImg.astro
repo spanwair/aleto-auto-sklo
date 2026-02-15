@@ -28,7 +28,7 @@ const isSvg = !isPixelBasedImage(ext);
 
 {
   !isSvg && (
-    <Intersecting client:visible>
+    <Intersecting client:visible noSsr>
       <a
         href={`/images/${imgAlt}`}
         class="img fade-up block"
@@ -36,7 +36,11 @@ const isSvg = !isPixelBasedImage(ext);
         aria-label={t("enlarge_image")}
       >
         <Picture
-          {...props}
+          {...Object.fromEntries(
+            Object.entries(props).filter(
+              ([key]) => key !== "slot" && !key.startsWith("data-"),
+            ),
+          )}
           alt={imgAlt}
           width={768}
           breakpoints={[

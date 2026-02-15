@@ -34,6 +34,17 @@ export default defineConfig({
       appEntrypoint: "/src/pages/_app",
     }),
     astroImageTools,
+    {
+      name: "vercel-fix",
+      hooks: {
+        "astro:build:done": () => {
+          setTimeout(() => {
+            console.log("Forcing exit to prevent build hang...");
+            process.exit(0);
+          }, 1000);
+        },
+      },
+    },
   ],
   markdown: {
     extendDefaultPlugins: true,
@@ -71,7 +82,7 @@ export default defineConfig({
   build: {
     inlineStylesheets: "always",
   },
-  scopedStyleStrategy: "attribute",
+  scopedStyleStrategy: "where",
   prefetch: {
     defaultStrategy: "viewport",
   },
