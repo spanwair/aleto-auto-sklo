@@ -1,11 +1,13 @@
-# Aleto Auto Skla Servis - Project Requirements
+# ALETO autosklo servis - Project Requirements
 
 ## Project Overview
-Build a modern, mobile-first Astro landing page for Aleto Auto Skla Servis, an automotive service company in Czech Republic specializing in auto glass replacement (with mobile service), tire service, and vehicle repairs.
+
+Build a modern, mobile-first Astro landing page for ALETO autosklo servis, an automotive service company in Czech Republic specializing in auto glass replacement (with mobile service), tire service, and vehicle repairs.
 
 ## Must-Have Features
 
 ### Core Features
+
 - [ ] **Responsive Design** - Mobile, tablet, desktop optimization
 - [ ] **Czech Language** - All content in Czech
 - [ ] **Contact Form** - Web3Forms integration with two phone numbers
@@ -19,6 +21,7 @@ Build a modern, mobile-first Astro landing page for Aleto Auto Skla Servis, an a
 - [ ] **Click-to-Call** - Both phone numbers clickable on mobile
 
 ### SEO & Technical
+
 - [ ] **SEO Optimization** - Czech keywords for auto glass, tire service
 - [ ] **Fast Loading** - Optimized images and performance
 - [ ] **Accessibility** - WCAG 2.1 AA compliance
@@ -29,7 +32,9 @@ Build a modern, mobile-first Astro landing page for Aleto Auto Skla Servis, an a
 ## Page Structure
 
 ### 1. Home Page (Úvodní stránka)
+
 **Sections:**
+
 - **Hero Section**
   - Main headline: "Autoskla i mobilně - přijedeme k vám domů!"
   - Subheadline: Comprehensive auto services in Ochoz u Konice
@@ -86,9 +91,11 @@ Build a modern, mobile-first Astro landing page for Aleto Auto Skla Servis, an a
   - QR code for mobile contact
 
 ### 2. Services Page (Služby)
+
 Detailed descriptions of all 6 services with sections for each
 
 ### 3. Contact Page (Kontakt)
+
 - **Contact Form** (main feature)
 - **Direct Contact Info** (both phones, email)
 - **Location** (Google Maps embedded)
@@ -107,6 +114,7 @@ Detailed descriptions of all 6 services with sections for each
 ## Technical Requirements
 
 ### Framework & Tools
+
 - **Framework:** Astro 4.x with Nebulix template
 - **Styling:** Tailwind CSS
 - **Forms:** Web3Forms for contact form
@@ -118,6 +126,7 @@ Detailed descriptions of all 6 services with sections for each
 ### Integrations
 
 #### Web3Forms Contact Form
+
 ```
 Fields:
 - Jméno (Name)
@@ -129,10 +138,12 @@ Fields:
 ```
 
 #### Google Maps
+
 - Pin at: 49.5981017N, 16.9170522E
 - Directions link
 
 ### Performance Targets
+
 - **Lighthouse Score:** 95-100
 - **First Contentful Paint:** <1.0s
 - **Mobile Performance:** 90+
@@ -141,15 +152,18 @@ Fields:
 ## Design Requirements
 
 ### Brand Colors
+
 - **Primary:** Dark blue/black (#1a1a2e)
 - **Secondary:** White (#FFFFFF)
 - **Accent:** Yellow (#FFD700)
 
 ### Typography
+
 - Modern sans-serif (Inter, Plus Jakarta Sans)
 - Full Czech character support (á, č, ď, é, ě, í, ň, ó, ř, š, ť, ú, ů, ý, ž)
 
 ### Visual Style
+
 - Modern automotive theme
 - Clean, professional layout
 - Blue/dark color scheme with yellow accents
@@ -159,6 +173,7 @@ Fields:
 ## Content Strategy
 
 ### Key Messages
+
 1. **Mobile Service is FREE**
 2. **Insurance Handled**
 3. **Professional Equipment**
@@ -167,10 +182,12 @@ Fields:
 6. **Fast & Reliable**
 
 ### Call-to-Actions
+
 - **Primary:** "Zavolat nyní" - 731 409 899 / 608 102 471
 - **Secondary:** "Objednat se online"
 
 ### SEO Keywords (Czech)
+
 - autoskla
 - výměna autoskla
 - mobilní výměna autoskla

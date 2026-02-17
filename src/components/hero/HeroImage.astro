@@ -2,7 +2,7 @@
 import Button from "@components/navigation/Button.astro";
 import ItemFilter from "@components/navigation/ItemFilter.astro";
 import FormattedDate from "@components/FormattedDate.astro";
-
+import myHeroImage from "../../assets/aleto/Messenger_creation_7A34BA8D-CA35-40B2-B6C0-142B19B3887D.jpeg";
 const {
   title,
   thumbnail,
@@ -28,18 +28,14 @@ const { slug } = Astro.params;
   style="min-height: 100vh;"
   id="header"
 >
-  {
-    thumbnail && (
-      <div class="media parallax w-full">
-        <img
-          src={thumbnail}
-          alt={title}
-          loading="eager"
-          class="w-full object-cover object-top"
-        />
-      </div>
-    )
-  }
+  <div class="media parallax w-full">
+    <img
+      src={myHeroImage.src}
+      alt={title}
+      loading="eager"
+      class="w-full object-cover object-top"
+    />
+  </div>
 
   <div
     class="absolute inset-0 z-10 grid place-items-center bg-dark bg-opacity-20"

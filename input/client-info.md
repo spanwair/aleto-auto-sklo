@@ -1,13 +1,17 @@
-# Aleto Auto Skla Servis - Client Information
+# ALETO autosklo servis - Client Information
 
 ## Company Name
-**Aleto Auto Skla Servis** (Aleto-Autoskloservis)
+
+**ALETO autosklo servis** (Aleto-Autoskloservis)
 
 ## Industry
+
 Automotive Services - Auto Glass, Tire Service & Vehicle Repair
 
 ## Location
+
 Ochoz u Konice, Czech Republic
+
 - GPS: 49.5981017N, 16.9170522E
 - Service Area: Mobile service available - "We come to you at home!"
 
@@ -20,6 +24,7 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 ## Core Services Offered
 
 ### 1. Auto Glass Services (Autoskla) - PRIMARY SERVICE
+
 - Replacement of all types of auto glass (windshields, side windows, rear windows)
 - Glass repair and sealing
 - Mobile glass replacement service (FREE - we come to you!)
@@ -27,6 +32,7 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 - Professional installation with quality materials
 
 ### 2. Tire Service (Pneuservis)
+
 - Tire mounting and balancing (using professional Redats equipment)
 - Seasonal tire changes
 - Tire storage available
@@ -35,6 +41,7 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 - Expert consultation on tire selection for your vehicle, driving style, and budget
 
 ### 3. Vehicle Repair & Service (Servis vozidel)
+
 - Service for all vehicle brands
 - Diagnostics
 - Replacement of all vehicle parts
@@ -43,17 +50,20 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 - MOT (STK) preparation
 
 ### 4. Diagnostics (Diagnostika)
+
 - Professional diagnostic equipment and software
 - Identification of vehicle problems and faults
 - Error code reading
 - Maintenance recommendations
 
 ### 5. Headlight Restoration (Leštění světel)
+
 - Professional restoration of faded and scratched headlights
 - Restores clarity and safety to your headlights
 - Service available in Ochoz
 
 ### 6. MOT Preparation (Příprava na STK)
+
 - Thorough vehicle inspection
 - Repairs if needed
 - Important factor for passing MOT without issues
@@ -61,6 +71,7 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 ## Target Audience
 
 ### Primary Audience:
+
 - Car owners in Olomouc region (Ochoz u Konice and surrounding areas)
 - Age: 25-65
 - People who need urgent auto glass repair
@@ -68,6 +79,7 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 - Insurance customers
 
 ### Secondary Audience:
+
 - Fleet managers
 - Commercial vehicle owners
 - Local businesses with vehicle fleets
@@ -87,8 +99,9 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 **Main Tagline:** "NOVINKA! Měníme autoskla i mobilně, třeba u vás doma!"
 (NEW! We replace auto glass even mobile, maybe at your home!)
 
-**Safety Focus:** 
-- "Tires and regular tire service are key to safety" 
+**Safety Focus:**
+
+- "Tires and regular tire service are key to safety"
 - "Proper tire maintenance and regular tire service visits are key to safety"
 - "The mechanical side of the car is a very important part of your and others' safety"
 
@@ -130,12 +143,15 @@ Our unique selling point is our **mobile auto glass replacement service** - cust
 6. **Local Presence:** Established business in Ochoz u Konice area
 
 ## Business Hours
+
 [Need to confirm with customer - typical automotive service hours 8:00-17:00 Mon-Fri, 8:00-12:00 Sat]
 
 ## Language
+
 Czech (primary market)
 
 ## Service Areas Covered
+
 - Ochoz u Konice (main location)
 - Surrounding region (mobile service)
 - Likely covers: Prostějov, Konice, Olomouc area
@@ -152,10 +168,12 @@ Czech (primary market)
 ## Visual Assets Available
 
 ### Photos:
+
 1. **pneuservis-equipment.jpg** - Professional tire service equipment (Redats brand machines)
 2. **aleto-business-card.jpg** - Business card with logo, contact info, and QR code
 
 ### Branding Elements (from business card):
+
 - Logo: "ALETO" with wheel icon integrated into the "O"
 - Tagline: "AUTO SKLO SERVIS"
 - Color scheme: White text on dark background, yellow accents
@@ -164,12 +182,14 @@ Czech (primary market)
 ## Website Goals
 
 ### Primary Goals:
+
 1. Generate phone calls for urgent glass repair
 2. Educate customers about mobile service convenience
 3. Build trust through professionalism and safety messaging
 4. Capture insurance-related glass replacement business
 
 ### Secondary Goals:
+
 1. Promote tire service during season changes
 2. Establish credibility as comprehensive auto service provider
 3. Showcase modern equipment and facilities

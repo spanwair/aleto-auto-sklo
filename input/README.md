@@ -1,10 +1,11 @@
-# Aleto Auto Skla Servis - Input Package
+# ALETO autosklo servis - Input Package
 
 ## 📦 What's Included
 
 This folder contains all customer-provided information for building the Aleto Auto Skla website.
 
 ### Files:
+
 ```
 aleto-input/
 ├── README.md                 # This file - usage guide
@@ -22,6 +23,7 @@ aleto-input/
 ## 🎯 How to Use This Package
 
 ### Step 1: Copy to Your Project
+
 ```bash
 # Copy this folder to your aleto-auto-skla project as 'input'
 cd /path/to/aleto-auto-skla
@@ -29,12 +31,15 @@ cp -r /path/to/aleto-input ./input
 ```
 
 ### Step 2: Run the Workflow
+
 ```bash
 antigravity workflow run astro-landing-pages --input ./input
 ```
 
 ### Step 3: Agents Will Process Everything
+
 The multi-agent system will:
+
 1. Read all customer information
 2. Create site structure and content plan
 3. Write Czech language content
@@ -46,13 +51,15 @@ The multi-agent system will:
 
 ## 📝 Key Information
 
-### Company: Aleto Auto Skla Servis
+### Company: ALETO autosklo servis
+
 - **Location:** Ochoz u Konice, Czech Republic
 - **GPS:** 49.5981017N, 16.9170522E
 - **Phones:** 731 409 899 / 608 102 471
 - **Email:** aletosutosklo@seznam.cz
 
 ### Services:
+
 1. **Auto Glass (PRIMARY)** - Mobile service available!
 2. Tire Service (Pneuservis)
 3. Vehicle Repair (Servis vozidel)
@@ -61,6 +68,7 @@ The multi-agent system will:
 6. MOT Preparation (Příprava na STK)
 
 ### Key Features:
+
 - **Mobile Service:** Free - they come to you!
 - **Insurance Handling:** All paperwork included
 - **Czech Language:** All content in Czech
@@ -70,6 +78,7 @@ The multi-agent system will:
 ## 🎨 Brand Guidelines
 
 **Colors:**
+
 - Primary: Dark blue/black
 - Secondary: White
 - Accent: Yellow
@@ -84,6 +93,7 @@ The multi-agent system will:
 ✅ **aleto-business-card.jpg** - Logo and branding
 
 ### Still Needed (optional):
+
 - Mobile service van photos
 - Team/staff photos
 - Workshop facility photos
@@ -92,6 +102,7 @@ The multi-agent system will:
 ## 🚀 Expected Output
 
 After workflow completion:
+
 - ✅ Complete Astro website (Czech language)
 - ✅ Web3Forms contact form
 - ✅ Google Maps integration
@@ -111,6 +122,7 @@ After workflow completion:
 ## 📞 Customer Contact
 
 If you need more information:
+
 - **Phone:** 731 409 899 or 608 102 471
 - **Email:** aletosutosklo@seznam.cz
 
