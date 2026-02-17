@@ -47,7 +47,7 @@ if (container === "sm")
                 src={image.image}
                 alt={image.title}
                 loading="lazy"
-                class={`h-auto w-full ${aspect ? `aspect-${aspect.replace(":", "-")}` : "aspect-square"} rounded object-cover`}
+                class={`h-auto w-full ${aspect ? `aspect-[${aspect}]` : "aspect-square"} rounded object-cover`}
               />
             </div>
             <div class=" absolute inset-0 z-10  opacity-0 transition-all duration-1000 hover:opacity-100">

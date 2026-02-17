@@ -25,43 +25,27 @@
                 class="input-group z-20 w-full"
                 v-if="contact.topics.length > 1"
               >
-                <Popper
-                  placement="bottom-start"
-                  offsetDistance="1"
-                  :show="showPopper"
-                  class="w-full"
+                <select
+                  class="select surface-overlay w-full"
+                  v-model="topic"
+                  @change="
+                    (e) => {
+                      const selected = contact.topics.find(
+                        (t) => t.label === e.target.value,
+                      );
+                      setTopic(selected);
+                    }
+                  "
                 >
-                  <button
-                    type="button"
-                    @click="showPopper = !showPopper"
-                    class="select surface-overlay w-full text-left"
+                  <option :value="null" disabled>Select</option>
+                  <option
+                    v-for="(item, index) in contact.topics"
+                    :key="index"
+                    :value="item.label"
                   >
-                    {{ !!topic ? topic : "Select" }}
-                  </button>
-
-                  <template #content>
-                    <ul>
-                      <li
-                        v-for="(item, index) in contact.topics"
-                        :key="index"
-                        :class="
-                          topic == item.label ? 'bg-dark bg-opacity-10' : ''
-                        "
-                      >
-                        <button
-                          type="button"
-                          class="w-full p-2 text-left hover:bg-dark hover:bg-opacity-10"
-                          @click="
-                            setTopic(item);
-                            showPopper = false;
-                          "
-                        >
-                          {{ item.label }}
-                        </button>
-                      </li>
-                    </ul>
-                  </template>
-                </Popper>
+                    {{ item.label }}
+                  </option>
+                </select>
 
                 <label
                   class="peer-placeholder-shown:left-4 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-9 peer-focus:scale-75 peer-focus:text-primary"
@@ -166,7 +150,6 @@ import {
   enableBodyScroll,
   clearAllBodyScrollLocks,
 } from "body-scroll-lock";
-import Popper from "vue3-popper";
 
 const props = defineProps({
   contact: {
@@ -204,7 +187,7 @@ const { pass, isFinished, errorFields } = useAsyncValidator(form, rules);
 onMounted(() => {});
 
 const topic = ref(null);
-const showPopper = ref(false);
+
 const loading = ref(false);
 const topicChannel = ref(null);
 const topicEmail = ref(null);
@@ -214,7 +197,6 @@ const hide = () => {
 };
 
 const setTopic = (data) => {
-  
   topic.value = data.label;
   topicEmail.value = data.email;
   topicChannel.value = data.slack_id;
@@ -244,7 +226,7 @@ Message: \r\n${form.message}\r\n           `,
 });
 
 const submit = () => {
-  loading.value = true; 
+  loading.value = true;
   if (!!props.contact.provider) {
     fetch(`/api/contact-${props.contact.provider}`, {
       method: "POST",
@@ -279,7 +261,7 @@ watch(
   $show,
 
   (val) => {
-    if (val) { 
+    if (val) {
       disableBodyScroll(document.body);
     } else {
       enableBodyScroll(document.body);
